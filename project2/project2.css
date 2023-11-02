@@ -12,6 +12,7 @@
   nav ul {
     display: flex;
     align-items: center;
+    gap: 100px;
   }
   
   nav ul li:hover{
@@ -22,10 +23,12 @@
     list-style: none;
     margin-right: 5%;
     font-weight: 600;
+   font-size: 20px;
   }
    .leftmain button:hover{
     background-color: white;
     color: rgb(18, 155, 155);
+    
     border: 1px solid black;
  }
    
@@ -49,6 +52,7 @@
   
   .leftmain p {
     margin: 5% 0;
+    font-size: 25px;
   }
   
   .leftmain button {

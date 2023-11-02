@@ -19,7 +19,6 @@ nav ul{
     gap: 20px;
 }
 nav ul li{
-    list-style-type: none;
     font-size: 20px;
 }
 img[alt="menu"]{
@@ -183,6 +182,4 @@ img[alt="social"]{
         border-radius: 20px;
         margin-bottom: 20px;
     }
-    
-
 }

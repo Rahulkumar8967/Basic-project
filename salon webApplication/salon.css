@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+::selection{
+    background-color: black;
+    color: white;
+}
+li,a{
+    list-style-type: none;
+    text-decoration: none;
+}
+body {
+  background-image: url(images/background.jpg);
+    background-size: cover;
+    max-height: 400px;
+    background-repeat: no-repeat;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-top: 30px;
+    padding-right: 30px;
+    /* color: rgb(178, 167, 167); */
+}
+
+
+.left-nav{
+    display: flex;
+    gap: 1.5em;
+    font-size: 2.2em;
+    font-family:Skranji;
+    font-weight: 800;
+    padding-left: 100px;
+    color: wheat;
+}
+.left-nav span:hover{
+    color: rgb(178, 167, 167);
+    transition: .5s ease-in;
+    cursor: pointer;
+}
+.social-nav-items i:hover{
+    color: rgb(178, 167, 167);
+    transition: .5s ease-in;
+    cursor: pointer;
+}
+.right-nav ul{
+    display: flex;
+    gap: 1.2em;
+    align-items: center;
+    font-family: Share Tech;
+    font-size: 1.4em;
+   font-weight: 700;
+   color: rgb(132, 115, 115);
+}
+.right-nav li:hover{
+    color: wheat;
+    transition: .8s ease-in;
+    cursor: pointer;
+}
+
+/* Main Section Design */
+.left-main{
+    padding-left: 100px;
+    padding-right: 550px;
+    padding-top: 100px;
+}
+.left-main h2{
+    font-size: 45px;
+    line-height: 55px;
+    font-family: "Times new roman";
+    color: rgb(179, 197, 201);
+}
+.main-buttons{
+    display: flex;
+gap: 30px;
+margin-top: 20px;
+}
+.main-buttons button:first-child{
+    background-color:#FF3259;
+    font-size: 20px;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 30px;
+    border: none;
+}
+.main-buttons button:last-child{
+    background-color: #0B3052;
+    font-size: 20px;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: none;
+}
+.credit-text{
+    font-size: 25px;
+    color: white;
+    font-family: Share Tech;
+    padding-top: 20px;
+}
+.typing-effect{
+    font-size: 40px;
+    color: aqua;
+    font-family: Skranji;
+}
+
+/* Second main section */
+.second-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-img{
+    margin-top: 350px;
+    padding-left: 50px;
+}
+.right-second-main{
+  margin-top: 300px;
+  padding: 0px 80px 0px 100px;
+}
+.right-second-main h1{
+   font-family: share tech;
+   font-weight: 700;
+   color: #545C5C;
+   font-size: 45px;
+
+}
+.second-section button{
+    background-color:#FF3259;
+    font-size: 20px;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 15px;
+}
+.performance{
+    margin-top: 50px;
+}
+.performance h1{
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+.performance p{
+    font-size: 1.4rem;
+    color:#4F5B65;
+    font-weight: 600;
+}
+.performance span{
+    font-size: 7rem;
+    font-family: Skranji;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 8%, rgba(19, 177, 177, 1) 60%, rgba(15, 129, 153, 1) 74%, rgba(9, 9, 121, 1) 92%);;
+   -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; 
+   font-weight: 900;
+}
+.performance-disc{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-family: Permanent Marker;
+    padding: 50px 50px;
+}
+/* Subscribe to newsletter */
+.newsletter{
+    background-color: #CECED8;
+    padding: 50px 0px;
+    text-align: center;
+}
+.newsletter h1{
+    font-size: 50px;
+    font-family: Skranji;
+    font-weight: 800;
+}
+.newsletter input{
+    padding: 10px 40px 10px 40px;
+    border-radius: 20px;
+ font-size: 1.5rem;
+ margin: 10px 10px;
+}
+.newsletter button{
+    background-color:#FF3259;
+    font-size: 17px;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 30px;
+    border: none;
+}
+/* Footer Design */
+.main-footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #E6E3DE;
+    margin-top: 30px;
+    align-items: center;
+
+}
+.foot1{
+    width: 20%;
+}
+.foot1 span{
+    font-size: 40px;
+    font-family: Share Tech;
+    font-weight: 800;
+
+}
+.foot{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 20px;
+  position: relative;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.foot li{
+    padding-bottom: 10px;
+
+}
+.foot5{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: blue;
+    position: relative;
+    margin-top: -7px;
+}
+.foot3{
+    position: relative;
+    margin-top: -17px;
+}
+.last-text{
+    background-color: #F1EFEB;
+    text-align: end;
+    font-size: 1.2rem;
+    font-style: oblique;
+    font-family: poppins;
+    padding-right: 20px;
+}

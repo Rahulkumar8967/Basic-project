@@ -1,0 +1,40 @@
+*{
+    color:white;
+}
+body{
+    background:rgb(13,0,28);
+}
+.container{
+    border: 4px  solid white;
+    width: 500px ;
+    margin: 0 auto ;
+    border-radius: 10px;
+}
+.c3-form{
+    padding: 0  20px;
+}
+.form-control{
+    margin: 20px 0;
+
+}
+form-control-label{
+    display: block;
+    font-weight: 40px;
+    font-size:medium;
+}
+.form-control-input{
+    width:100%;
+    padding: 5px;
+    color:gray;
+    font-weight: bold;
+}
+.button{
+    background-color: rgb(18, 155, 155);
+    padding: 11px 20px;
+    cursor: pointer;
+    color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: 700;
+    width: fit-content;
+}
