@@ -1,0 +1,16 @@
+body{
+    /* height,display, justify,align */
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    /* bgc cursor color textalign,borderrad fontsize */
+    #box{
+        width:20rem;
+        background-color: green;
+        text-align: center;
+        border-radius: 15px;
+        font-size: 30px;
+    }
